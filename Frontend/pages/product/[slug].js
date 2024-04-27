@@ -2,6 +2,7 @@ import Wrapper from '@/components/Wrapper'
 import React from 'react'
 import { IoMdHeartEmpty } from 'react-icons/io'
 import ProductDetailsCarousel from '@/components/ProductDetailsCarousel'
+import RelatedProducts from '@/components/RelatedProducts'
 
 
 const ProductDetails = () => {
@@ -118,7 +119,7 @@ const ProductDetails = () => {
 
                     </div>
                 </div>
-                
+                <RelatedProducts/>
             </Wrapper>
         </div>
     )

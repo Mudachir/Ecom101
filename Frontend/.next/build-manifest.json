@@ -37,10 +37,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/category/[slug].js"
     ],
-    "/failed": [
+    "/product/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/failed.js"
+      "static/chunks/pages/product/[slug].js"
     ]
   },
   "ampFirstPages": []
